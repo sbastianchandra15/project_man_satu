@@ -77,10 +77,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'          => '',
-    'hostname'     => '192.168.10.10',
+    'hostname'     => 'localhost',
     'username'     => 'root',
-    'password'     => 'LMsystem321!!!',
-    'database'     => 'db_master',
+    'password'     => '',
+    'database'     => 'db_man_satu',
     'dbdriver'     => 'mysqli',
     'dbprefix'     => '',
     'pconnect'     => false, // not supported with the database session driver
@@ -98,74 +98,6 @@ $db['default'] = array(
     'save_queries' => true,
 );
 
-$db['purchasing_lm'] = array(
-    'dsn'          => '',
-    'hostname'     => '192.168.10.10',
-    'username'     => 'root',
-    'password'     => 'LMsystem321!!!',
-    'database'     => 'db_purchasing_lm',
-    'dbdriver'     => 'mysqli',
-    'dbprefix'     => '',
-    'pconnect'     => false, // not supported with the database session driver
-    'db_debug'     => true,
-    'cache_on'     => false,
-    'cachedir'     => '',
-    'port'         => '3306',
-    'char_set'     => 'utf8',
-    'dbcollat'     => 'utf8_general_ci',
-    'swap_pre'     => '',
-    'encrypt'      => false,
-    'compress'     => false,
-    'stricton'     => true,
-    'failover'     => array(),
-    'save_queries' => true,
-);
-
-$db['purchasing_sg'] = array(
-    'dsn'          => '',
-    'hostname'     => '192.168.10.10',
-    'username'     => 'root',
-    'password'     => 'LMsystem321!!!',
-    'database'     => 'db_purchasing_sg',
-    'dbdriver'     => 'mysqli',
-    'dbprefix'     => '',
-    'pconnect'     => false, // not supported with the database session driver
-    'db_debug'     => true,
-    'cache_on'     => false,
-    'cachedir'     => '',
-    'port'         => '3306',
-    'char_set'     => 'utf8',
-    'dbcollat'     => 'utf8_general_ci',
-    'swap_pre'     => '',
-    'encrypt'      => false,
-    'compress'     => false,
-    'stricton'     => true,
-    'failover'     => array(),
-    'save_queries' => true,
-);
-
-$db['budget_plan'] = array(
-    'dsn'          => '',
-    'hostname'     => '192.168.10.10',
-    'username'     => 'root',
-    'password'     => 'LMsystem321!!!',
-    'database'     => 'db_finance',
-    'dbdriver'     => 'mysqli',
-    'dbprefix'     => '',
-    'pconnect'     => false, // not supported with the database session driver
-    'db_debug'     => true,
-    'cache_on'     => false,
-    'cachedir'     => '',
-    'port'         => '3306',
-    'char_set'     => 'utf8',
-    'dbcollat'     => 'utf8_general_ci',
-    'swap_pre'     => '',
-    'encrypt'      => false,
-    'compress'     => false,
-    'stricton'     => true,
-    'failover'     => array(),
-    'save_queries' => true,
-);
 
 // $db['purchasing_lm'] = $db['default'];
 // $db['purchasing_lm']['database'] = 'db_purchasing_lm';
